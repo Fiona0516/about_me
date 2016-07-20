@@ -1,3 +1,6 @@
+body{
+  background-color: black;
+}
 h1{
 text-align:center;
 font-family: "Lucida Console", Monaco;
@@ -10,7 +13,7 @@ div.heading{
   color:rgb(123,199,120);
   font-size:15px;
   text-align:left;
-  background-color: black;
+  
 }
 
 ul{
