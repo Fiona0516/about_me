@@ -1,5 +1,5 @@
 'use strict';
-var answer1 = prompt('Does Fiona have a cat?').toLowerCase();
+/*var answer1 = prompt('Does Fiona have a cat?').toLowerCase();
 if (answer1 === 'yes' || answer1 === 'y') {
   alert('Wrong! Fiona actually does not have a pet!');
 } else if (answer1 === 'no' || answer1 === 'n'){
@@ -32,10 +32,28 @@ if (answer4 === 'yes' || answer4 === 'y'){
   alert('That\s not an answer.');
 }
 var answer5 = prompt('Does she love seafood?').toLowerCase();
-if (answer4 === 'yes' || answer4 === 'y'){
+if (answer5 === 'yes' || answer5 === 'y'){
   alert('Correct. She loves seafood!');
 } else if (answer5 === 'no' || answer5 === 'n'){
   alert('Wrong. She goes to oysters happy hour every week.');
 } else {
   alert('That\s not an answer!');
+}*/
+var i = 0;
+while (answer6 !== 6 && i < 4){
+  var answer6 = parseInt(prompt('What is her lucky number? '));
+  if (answer6 % 1 != 0){
+    alert('Please enter an integer.');
+  } else if (parseInt(answer6) < 6 ) {
+    alert('Too low!');
+  } else if (parseInt(answer6) > 6 ) {
+    alert ('Too high!');
+  } else if (answer6 === 6){
+    alert ('Correct!');
+    break;
+  }
+  i++;
+};
+if (i >= 3){
+  alert ('Too many tries');
 }
