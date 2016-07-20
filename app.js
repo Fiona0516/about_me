@@ -38,7 +38,7 @@ if (answer5 === 'yes' || answer5 === 'y'){
   alert('Wrong. She goes to oysters happy hour every week.');
 } else {
   alert('That\s not an answer!');
-}*/
+}
 var i = 0;
 while (answer6 !== 6 && i < 4){
   var answer6 = parseInt(prompt('What is her lucky number? '));
@@ -56,4 +56,20 @@ while (answer6 !== 6 && i < 4){
 };
 if (i >= 3){
   alert ('Too many tries');
+}*/
+var possibleColors = ['blue','black','gold','pink','purple'];
+var i = 0;
+while (i < 6 ){
+  var answer7 = prompt('What is her favorite color?').toLowerCase();
+  if (possibleColors.indexOf(answer7) === -1){
+    alert('Try again.');
+  } else{
+    alert('That\s right!');
+    break;
+  }
+  i++;
+};
+
+if (i >= 5) {
+  alert('Too many tries. Her favorite colors include blue, black, gold, pink, and purple.');
 }
