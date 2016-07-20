@@ -1,5 +1,5 @@
 'use strict';
-/*var answer1 = prompt('Does Fiona have a cat?').toLowerCase();
+var answer1 = prompt('Does Fiona have a cat?').toLowerCase();
 if (answer1 === 'yes' || answer1 === 'y') {
   alert('Wrong! Fiona actually does not have a pet!');
 } else if (answer1 === 'no' || answer1 === 'n'){
@@ -9,7 +9,7 @@ if (answer1 === 'yes' || answer1 === 'y') {
 };
 var answer2 = prompt('Can she speak Japanese?').toLowerCase();
 if (answer2 === 'yes' || answer2 === 'y'){
-  alert('Wrong. She doesn\t know how to speak Japanese');
+  alert('Wrong. She does not know how to speak Japanese');
 } else if (answer2 === 'no' || answer2 === 'n'){
   alert('Right. But she can read some characters because they are similar to Chinese characters!');
 } else {
@@ -56,7 +56,7 @@ while (answer6 !== 6 && i < 4){
 };
 if (i >= 3){
   alert ('Too many tries');
-}*/
+}
 var possibleColors = ['blue','black','gold','pink','purple'];
 var i = 0;
 while (i < 6 ){
@@ -73,3 +73,26 @@ while (i < 6 ){
 if (i >= 5) {
   alert('Too many tries. Her favorite colors include blue, black, gold, pink, and purple.');
 }
+var tally = 0;
+if( answer1.toLowerCase === 'no' || answer1 === 'n'){
+  tally = tally + 1;
+}
+if( answer2.toLowerCase === 'no' || answer2 === 'n'){
+  tally = tally + 1;
+}
+if( answer3.toLowerCase === 'yes' || answer3 === 'y'){
+  tally = tally + 1;
+}
+if( answer4.toLowerCase === 'no' || answer4 === 'n'){
+  tally = tally + 1;
+}
+if( answer5.toLowerCase === 'yes' || answer5 === 'y'){
+  tally = tally + 1;
+}
+if( answer6 === 6){
+  tally = tally + 1;
+}
+if( possibleColors.indexOf(answer7) !== -1){
+  tally = tally + 1;
+}
+alert('You got ' + tally + 'out of 7 questions correct! Better luck next time!');
