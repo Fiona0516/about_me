@@ -3,7 +3,6 @@ text-align:center;
 font-family: "Lucida Console", Monaco;
 color:#ff99cc;
 letter-spacing: 0.1em;
-
 }
 
 div.heading{
@@ -12,16 +11,15 @@ div.heading{
   font-size:15px;
   text-align:left;
   background-color: black;
-
 }
+
 ul{
   font-family: 'ER Bukinist',fantasy;
   text-align: left;
   font-size: 18px;
   color: white;
-
-
 }
+
 img{
   display:inline;
   height:170px;
@@ -29,9 +27,8 @@ img{
   margin-left: 130px;
   border-radius:60px;
   box-shadow: 0 0 10px #998777;
-
-
 }
+
 a{
   color:blue;
   font-family:serif;
@@ -40,6 +37,7 @@ a{
   line-height: 0.1em;
   letter-spacing: 0 em;
 }
+
 a:hover{
   color:red;
 }
